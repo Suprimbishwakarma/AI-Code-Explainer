@@ -327,4 +327,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## Fun Fact 😆
-- This README.md file was created using AI.
+- This README.md file was created with the help of AI.
