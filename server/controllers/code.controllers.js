@@ -9,10 +9,14 @@ const client = new OpenAI({
 
 const postCode = async (req, res) => {
   try {
+    //Get the code and language from the request.
     const { code, language } = req.body;
+    //Checking if everything we need is received or not.
     if (!code || !language) {
       return res.status(400).json({ message: "fields are required!" });
     }
+
+    //preparing the message for AI.
     const messages = [
       {
         role: "user",
@@ -20,6 +24,7 @@ const postCode = async (req, res) => {
       },
     ];
 
+    //Ask the AI to explain the code.
     const response = await client.chat.completions.create({
       model: "openai/gpt-oss-120b", //brain to be used. (LLMs)
       messages, //prompt passed by the user.
@@ -27,12 +32,14 @@ const postCode = async (req, res) => {
       max_tokens: 800, //maximum number of words. (input prompt + response).
     });
 
+    //extract the explanation from the AI's response.
     const explanation = response?.choices[0]?.message?.content;
 
     if (!explanation) {
       return res.status(500).json({ message: "failed to explain your code!" });
     }
 
+    //Send the explanation back to the frontend.
     res.status(200).json({ explanation, language: language });
   } catch (error) {
     res
