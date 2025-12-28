@@ -11,12 +11,14 @@ const Forms = () => {
   const [code, setCode] = useState("");
   const [language, setLanguage] = useState("Javascript");
   return (
-    <div className="w-full max-w-4xl bg-white p-6 rounded-2xl shadow-lg">
+    <div className="w-full max-w-4xl bg-[#00536c] p-6 rounded-2xl shadow-lg">
       <form action={formAction}>
-        <label className="block mb-2 font-semibold">Language: </label>
+        <label className="block mb-2 font-semibold text-[#eaebed]">
+          Language:{" "}
+        </label>
         <select
           name="language"
-          className="border rounded-lg p-2 w-full mb-4 bg-transparent"
+          className="border rounded-lg p-2 w-full mb-4 bg-[#006989] text-[#eaebed]"
           value={language}
           onChange={(e) => setLanguage(e.target.value)}
         >
@@ -27,11 +29,11 @@ const Forms = () => {
           <option value="rust">Rust</option>
           <option value="typescript">Typescript</option>
         </select>
-        <label className="block mb-2 font-semibold">Code:</label>
+        <label className="block mb-2 font-semibold text-[#eaebed]">Code:</label>
         <textarea
           name="code"
           placeholder="Paste your code here:"
-          className="border rounded-lg w-full p-3 font-mono text-sm bg-transparent min-h-[150px]"
+          className="border rounded-lg w-full p-3 font-mono text-sm bg-transparent min-h-[150px] text-[#eaebed]"
           value={code}
           onChange={(e) => setCode(e.target.value)}
         />

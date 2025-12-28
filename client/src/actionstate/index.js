@@ -29,7 +29,7 @@ export async function codeExplain(prevState, formData) {
   } catch (error) {
     return {
       success: false,
-      error: `An error occured: ${error.message}`,
+      error: `An error occurred: ${error.message}`,
     };
   }
 }
