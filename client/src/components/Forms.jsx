@@ -40,7 +40,7 @@ const Forms = () => {
         <button
           type="submit"
           disabled={isPending}
-          className="mt-4 px-6 py-2 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-900 transition disabled:opacity-50"
+          className="mt-4 px-6 py-2 rounded-lg bg-[#011627] text-white font-semibold cursor-pointer transform transition hover:scale-110"
         >
           {isPending ? "Getting there" : "Explain"}
         </button>
