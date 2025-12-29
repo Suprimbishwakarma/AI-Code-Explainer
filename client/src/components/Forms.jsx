@@ -2,7 +2,7 @@ import React from "react";
 import { useActionState, useState } from "react";
 //why useActionState? because it allows you to update state based on the result of a form action.
 //introduced in react 19. makes it faster and easier while working with form data.
-import { codeExplain } from "../actionstate/index.js";
+import { codeExplain } from "../config/index.js";
 import Error from "./Error.jsx";
 import CodeDetails from "./CodeDetails.jsx";
 
