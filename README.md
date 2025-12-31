@@ -2,7 +2,7 @@
 
 Built with React and Node.js, powered by OpenAI's language models through Nebius API.
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2213ee68-5bfc-4b0b-9861-23c4f92d211b" />
+<img width="1366" height="768" alt="Video" src="https://github.com/user-attachments/assets/bf1efb2b-a45d-4d65-a4b6-7af9304b5c9f" />
 
 ## 📋 Table of Contents
 
@@ -58,17 +58,11 @@ Simply paste your code, select the language, and get a clear, AI-generated expla
 #### Core Framework & Build Tools
 
 - **[React](https://react.dev/)** (v19.2.0) - Modern UI library with latest features
-  - **[react-dom](https://react.dev/reference/react-dom)** (v19.2.0) - DOM rendering for React
 - **[Vite](https://vitejs.dev/)** (v7.2.4) - Next-generation frontend build tool for lightning-fast development
 
 #### Styling
 
 - **[TailwindCSS](https://tailwindcss.com/)** (v4.1.17) - Utility-first CSS framework for rapid UI development
-
-#### Markdown & Formatting
-
-- **[react-markdown](https://github.com/remarkjs/react-markdown)** (v10.1.0) - Renders markdown in React components
-- **[remark-gfm](https://github.com/remarkjs/remark-gfm)** (v4.0.1) - GitHub Flavored Markdown plugin for enhanced markdown features
 
 ### Backend (Server)
 
@@ -153,67 +147,55 @@ Building this project teaches you valuable full-stack development concepts:
    - Props and prop drilling
    - Conditional rendering
 
-4. **Vite Build System**
-
-   - Fast development with Hot Module Replacement (HMR)
-   - Modern ES modules
-   - Production builds and optimization
-
-5. **TailwindCSS**
+4. **TailwindCSS**
 
    - Utility-first CSS approach
    - Responsive design principles
    - Custom styling with utility classes
    - Modern UI design patterns (rounded corners, shadows, gradients)
 
-6. **Markdown Rendering**
-
-   - Parsing and rendering markdown in React
-   - GitHub Flavored Markdown support
-   - Safely displaying dynamic content
-
-7. **Clipboard API**
+5. **Clipboard API**
    - Browser Clipboard API usage
    - Async/await patterns
    - Error handling in async operations
 
 ### Backend Development
 
-8. **Express.js Framework**
+6. **Express.js Framework**
 
    - RESTful API design
    - Routing and controllers pattern (MVC architecture)
    - Middleware implementation
    - Request/response handling
 
-9. **API Integration**
+7. **API Integration**
 
    - OpenAI API integration
    - Custom baseURL configuration (Nebius API)
    - API key management
    - Request/response handling with external APIs
 
-10. **Security Best Practices**
+8. **Security Best Practices**
 
-    - Helmet for HTTP header security
-    - CORS configuration for cross-origin requests
-    - Rate limiting to prevent API abuse
-    - Environment variable management for sensitive data
+   - Helmet for HTTP header security
+   - CORS configuration for cross-origin requests
+   - Rate limiting to prevent API abuse
+   - Environment variable management for sensitive data
 
-11. **ES Modules in Node.js**
+9. **ES Modules in Node.js**
 
-    - Using `import/export` syntax
-    - `"type": "module"` in package.json
-    - Modern JavaScript in backend
+   - Using `import/export` syntax
+   - `"type": "module"` in package.json
+   - Modern JavaScript in backend
 
-12. **Error Handling**
+10. **Error Handling**
 
     - Try-catch blocks
     - Proper HTTP status codes
     - User-friendly error messages
     - Validation and input checking
 
-13. **AI/LLM Integration**
+11. **AI/LLM Integration**
     - Prompt engineering for code explanations
     - Temperature settings for response creativity
     - Token management and limits
@@ -221,34 +203,34 @@ Building this project teaches you valuable full-stack development concepts:
 
 ### Full-Stack Concepts
 
-14. **Client-Server Communication**
+12. **Client-Server Communication**
 
     - Fetch API usage
     - JSON data exchange
     - HTTP methods (POST, GET)
     - Request headers and body formatting
 
-15. **Environment Configuration**
+13. **Environment Configuration**
 
     - `.env` files for secrets
     - Different configs for development/production
     - Frontend/backend URL management
 
-16. **Development Workflow**
+14. **Development Workflow**
 
     - Separate client and server development
     - Nodemon for auto-reloading
     - Vite dev server
     - npm scripts organization
 
-17. **Code Organization**
+15. **Code Organization**
 
     - Separation of concerns
     - MVC pattern (Model-View-Controller)
     - Component-based architecture
     - File and folder structure best practices
 
-18. **Git & Version Control**
+16. **Git & Version Control**
     - `.gitignore` usage (excluding `node_modules`, `.env`)
     - Project structure for collaborative development
 
@@ -361,11 +343,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **TailwindCSS** for the utility-first CSS framework
 
 ---
-
-**Built with ❤️ for developers who want to understand code better**
-
----
-
-## Fun Fact 😆
-
-- This README.md file was created with the help of AI.
