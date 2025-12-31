@@ -2,12 +2,12 @@
 
 Built with React and Node.js, powered by OpenAI's language models through Nebius API.
 
-![image alt](https://github.com/Suprimbishwakarma/AI-Code-Explainer/blob/8c5d9206060b476205906714ca8e27bfbc435f13/Screenshot%20from%202025-12-31%2010-17-50.png)
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2213ee68-5bfc-4b0b-9861-23c4f92d211b" />
 
-![image] (<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2213ee68-5bfc-4b0b-9861-23c4f92d211b" />)
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Screenshot](#screenshot)
 - [Technologies & Packages](#technologies--packages)
 - [Project Structure](#project-structure)
 - [What You'll Learn](#what-youll-learn)
@@ -28,6 +28,18 @@ Simply paste your code, select the language, and get a clear, AI-generated expla
 - Java
 - Go
 - Rust
+
+## Screenshot
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2213ee68-5bfc-4b0b-9861-23c4f92d211b" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/bfd3d454-95a2-4fd0-8457-bab0f58d0df4" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/ef1d37a4-fec4-4ed6-9866-cdabb7ccde39" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/8b776fa2-8ae4-43b4-a204-11808272f97d" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e77786a2-a44c-4ccb-a5a1-e79834b3bc6f" />
 
 ## 🛠️ Technologies & Packages
 
