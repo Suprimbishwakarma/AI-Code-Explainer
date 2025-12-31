@@ -341,5 +341,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Nebius** for API services
 - **React** and **Vite** teams for amazing developer tools
 - **TailwindCSS** for the utility-first CSS framework
-
----
