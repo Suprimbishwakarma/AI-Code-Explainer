@@ -2,7 +2,7 @@
 
 Built with React and Node.js, powered by OpenAI's language models through Nebius API.
 
-<img width="1366" height="768" alt="Video" src="https://github.com/user-attachments/assets/bf1efb2b-a45d-4d65-a4b6-7af9304b5c9f" />
+<video width="1366" height="768" alt="Video" src="https://github.com/user-attachments/assets/bf1efb2b-a45d-4d65-a4b6-7af9304b5c9f"></video>
 
 ## 📋 Table of Contents
 
