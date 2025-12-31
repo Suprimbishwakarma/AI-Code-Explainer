@@ -4,6 +4,7 @@ Built with React and Node.js, powered by OpenAI's language models through Nebius
 
 ![image alt](https://github.com/Suprimbishwakarma/AI-Code-Explainer/blob/8c5d9206060b476205906714ca8e27bfbc435f13/Screenshot%20from%202025-12-31%2010-17-50.png)
 
+![image] (<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2213ee68-5bfc-4b0b-9861-23c4f92d211b" />)
 ## 📋 Table of Contents
 
 - [Overview](#overview)
