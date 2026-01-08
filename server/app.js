@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: "https://ai-code-explainer-ys7b.vercel.app/",
     credentials: true,
   })
 );
